@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>予約する | 格安オンライン英会話なら英会話プロ</title>
+<meta name="Description" content="最短、催促で英語を身に付けたいなら独自メゾット採用の英会話プロまで！">
+<meta name="Keywords" content="オンライン英会話,スカイプ英会話,無料レッスン,格安,安い,おすすめ,初心者">
+<link rel="stylesheet" href="../css/style.css" media="all">
+</head>
+<body>
+<div id="wrapper"> 	
+	<aside id="sidr-menu" class="navarea">
+		<nav>
+			<dl class="nav-profile">
+				<dt><img src="../images/kazukikamiya.jpg" alt="Kazuki Kamiya" class="photo"></dt>
+				<dd>Kazuki Kamiya</dd>
+			</dl>
+			<dl class="nav-point">
+				<dt>残りのポイント</dt>
+				<dd>
+					<p><strong>10</strong>P</p>
+					<p><span>有効期限</span><span>12月10日</span></p>
+				</dd>
+			</dl>
+			<ul>
+				<li><a href="../index.html" class="navon">予約する</a></li>
+				<li><a href="../point/index.html">ポイントの購入</a></li>
+				<li><a href="../booked/index.html">予約しているレッスン</a></li>
+				<li><a href="../log/index.html">レッスン履歴</a></li>
+				<li><a href="../favorite/index.html">お気に入りの講師</a></li>
+				<li><a href="../text/index.html">教科書</a></li>
+				<li><a href="../profile/index.html">会員情報</a></li>
+				<li><a class="slide-menu btn-close" href="#sidr">閉じる</a></li>
+			</ul>
+		</nav>
+	</aside>
+	<main class="member">
+		<header>
+	  <p>
+				<select name="lang" class="select">
+				<option value="" selected>Language</option>
+				<option value="lang01">JPN</option>
+				<option value="lang02">CHN</option>
+				<option value="lang03">KOR</option>
+				<option value="lang04">RUS</option>
+				<option value="lang05">ENG</option>
+				<option value="lang06">VNM</option>    
+				</select>
+   </p>
+		 <h1>予約する</h1></header>
+		<div class="mainarea">
+		 <ul class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../index.html"><span itemprop="name">Home | 予約する</span></a><meta itemprop="position" content="1" /></li>
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="confirm.html"><span itemprop="name">予約確認画面</span></a><meta itemprop="position" content="1" /></li>
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">予約完了画面<meta itemprop="position" content="2" /></li>
+			</ul>
+		<a class="slide-menu" href="#sidr" id="panel-btn"><span class="panel-btn-menu">Menu</span></a>	
+			<div class="wrap">
+			 <section>
+			 <h2 class="title-m cent">予約完了画面</h2>
+			 <p class="em cent">予約が完了しました。</p>
+			 </section>
+			</div>
+		</div>
+	</main>	
+	<p id="pageTop"><a href="#wrapper"><i class="pageup-arrow"></i></a></p>
+ <footer id="footer"><p>Copyright&copy; 格安オンライン英会話なら英会話プロ All Rights Reserved.</p></footer>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="../js/footerFixed.js"></script>
+<script type="text/javascript" src="../js/jquery.smoothScroll.js"></script>
+<script>
+$(document).ready(function(){
+	$("#pageTop").hide();	
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#pageTop').fadeIn();
+			} else {
+				$('#pageTop').fadeOut();
+			}
+		});
+		$('#pageTop a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+});
+</script>
+<script src="../js/jquery.sidr.min.js"></script>
+<script>
+$(function(){
+  if(window.matchMedia("(max-width:769px)").matches){
+      $(document).ready(function() {
+    $('.slide-menu').sidr({
+      name: 'sidr-menu',
+      side : 'left'
+    });
+  });
+  }
+  })
+</script>
+<script>
+$(function() {
+  $("#panel-btn").click(function() {
+    $("#panel").slideToggle(200);
+    return false;
+  });
+});
+</script>
+</body>
+</html>

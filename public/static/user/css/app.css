@@ -1,0 +1,95 @@
+.alert-dismissible{
+    max-width: 1000px;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert-success{
+    background-color: #00a65a !important;
+}
+
+.alert-success h4 {
+    margin-top: 0;
+    color: whitesmoke;
+    font-size: 32px;
+}
+.alert-success p.message {
+    color: white;
+}
+button.close {
+    float: right;
+    font-size: 22px;
+}
+
+.alert-danger p.message {
+
+}
+
+.alert-danger h4 {
+    margin-top: 0;
+    font-size: 32px;
+}
+.message-teacher-empty{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 5px;
+}
+.star-favorite{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 27px;
+}
+#loading-image {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+}
+.content strong{
+    font-weight: bold;
+}
+.content em {
+    font-style: italic;
+}
+.content strong em{
+    font-weight: bold;
+    font-style: italic;
+}
+main .alert .message {
+    padding-top: 15px;
+}
+li.back-day{
+    float: left;
+}
+li.next-day{
+    float: right;
+}
+
+.auth-page .mainarea{
+    padding: 0;
+    width: auto;
+    max-width: none;
+}
+.text-center .pagination{
+    text-align: center;
+    margin-top:10px;
+}
+#modal-content p{
+    text-align: center;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+#modal-content p, .modal-content p{
+    text-align: center;
+}

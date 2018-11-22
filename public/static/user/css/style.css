@@ -1,0 +1,10 @@
+@import url("default.css");
+@import url("common.css");
+@import url("app.css");
+
+.h-afterlogin .tooltip {
+    height: 38px;
+}
+.h-limit01 {
+    margin-top: 7px;
+}

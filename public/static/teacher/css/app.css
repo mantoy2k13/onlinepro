@@ -1,0 +1,82 @@
+.alert-dismissible{
+    max-width: 1000px;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert-success{
+    background-color: #00a65a !important;
+}
+
+.alert-success h4{
+    margin-top: 0;
+    color: whitesmoke;
+    font-size: 32px;
+}
+.alert-success p.message {
+    color: white;
+}
+button.close {
+    float: right;
+    font-size: 22px;
+}
+.alert-danger h4 {
+    margin-top: 0;
+    color: red;
+    font-size: 32px;
+}
+.alert-danger p.message {
+    color: red;
+}
+
+.alert-danger h4 {
+    margin-top: 0;
+    font-size: 32px;
+}
+.message-teacher-empty{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 5px;
+}
+.star-favorite{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 27px;
+}
+#loading-image {
+     display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+}
+
+main .alert .message {
+    padding-top: 15px;
+}
+
+.contents.current-month {
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+.mainarea .select2-container--default .select2-selection--single{
+    height: 30px;
+    border-radius: 0px;
+    border: 1px solid #e0e0e0;
+}
+.text-center .pagination{
+    text-align: center;
+    margin-top: 10px;
+}
+#modal-contents p, .text-center{
+    text-align: center;
+}
+

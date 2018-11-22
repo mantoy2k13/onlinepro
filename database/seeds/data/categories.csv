@@ -1,0 +1,7 @@
+id,"name_ja","name_en", "slug",image_id,"description_ja","description_en","order"
+1,"心の悩み","Heart trouble", "heart-trouble",0,"","",1
+2,"健康・美容","Health · Beauty", "health-and-beauty",0,"","",2
+3,"恋愛・結婚","Love / marriage","love-marriage",0,"","",3
+4,"子育て・教育","Child-rearing / education", "child-rearing-education",0,"","",4
+5,"暮らし・住まい","Living · Housing","living-housing",0,"","",5
+6,"旅行・おでかけ","Travel · Odekake",0, "travel-odekake","","",6

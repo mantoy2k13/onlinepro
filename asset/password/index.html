@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>パスワードを忘れた方 | 格安オンライン英会話なら英会話プロ</title>
+<meta name="Description" content="最短、催促で英語を身に付けたいなら独自メゾット採用の英会話プロまで！">
+<meta name="Keywords" content="オンライン英会話,スカイプ英会話,無料レッスン,格安,安い,おすすめ,初心者">
+<link rel="stylesheet" href="../css/style.css" media="all">
+</head>
+<body>
+<div id="wrapper">
+ <main>
+	<header>
+	  <p>
+				<select name="lang" class="select">
+				<option value="" selected>Language</option>
+				<option value="lang01">JPN</option>
+				<option value="lang02">CHN</option>
+				<option value="lang03">KOR</option>
+				<option value="lang04">RUS</option>
+				<option value="lang05">ENG</option>
+				<option value="lang06">VNM</option>    
+				</select>
+   </p>
+		 <h1>パスワードを忘れた方</h1></header>
+	 <ul class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../index.html"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">パスワードを忘れた方<meta itemprop="position" content="2" /></li>
+		</ul>
+		<div class="contents">
+		 <section>
+		 <p class="cent em sp-btm">登録しているメールアドレスを入力してください。</p>
+			<table class="form-a">
+				<tr>
+					<th>メールアドレス</th>
+					<td><input type="text" name="email"></td>
+				</tr>
+			</table>
+			<p><a href="send-complete.html" class="btn-o">パスワードリセット</a></p>
+			</section>
+		</div>
+	</main>
+	<p id="pageTop"><a href="#wrapper"><i class="pageup-arrow"></i></a></p>
+ <footer id="footer"><p>Copyright&copy; 格安オンライン英会話なら英会話プロ All Rights Reserved.</p></footer>
+</div>
+<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="../js/footerFixed.js"></script>
+<script type="text/javascript" src="../js/jquery.smoothScroll.js"></script>
+<script>
+$(document).ready(function(){
+	$("#pageTop").hide();	
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#pageTop').fadeIn();
+			} else {
+				$('#pageTop').fadeOut();
+			}
+		});
+		$('#pageTop a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+});
+</script>
+</body>
+</html>
